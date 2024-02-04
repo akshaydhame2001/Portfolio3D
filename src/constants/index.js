@@ -190,7 +190,7 @@ const projects = [
       },
     ],
     image: socialMedia,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/akshaydhame2001/SocialMediaApp",
   },
   {
     name: "E-Commerce App",
