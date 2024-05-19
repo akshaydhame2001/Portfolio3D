@@ -20,7 +20,9 @@ import {
   internshala,
   testimonial,
   socialMedia,
+  disney,
   ecommerce,
+  dronesim,
   odt,
 } from "../assets";
 
@@ -121,11 +123,12 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Developed an E-Commerce platform with react with payment gateway using stripe.",
-      "Worked on open source webGCS application for drones using HTML, CSS, JavaScript, React.js, Node.js to communicate with drones over internet from browser and store flight data in MySQL database.",
-      "Implemented Object detection and tracking with YOLOv8 and deployed a TensorRT optimized model on the Nvidia Jetson companion computer for gimbal tracking drone.",
-      "Developed SUV and Sedan car classification model ML pipeline using YOLOv3 and MobileNetV2 transfer learning with TensorFlow framework.",
+      "Developed a user-friendly e-commerce platform using React.js, Next.js, and Tailwind CSS, resulting in a seamless shopping experience for customers.",
+      "Implemented the Redux toolkit for efficient global state management, ensuring smooth data flow for buyers-sellers and enhanced performance of the e-commerce platform.",
+      "Explored authentication system with Node.js and Express.js for the security of users.",
+      "Led the development of a professional company website, boosting brand visibility and engagement by 40%.",
+      "Contributed to an open-source web-based Ground Control Station (GCS) application for drones with React.js, and Node.js. This innovative application enabled remote drone operation via the internet and facilitated the storage of flight data in a MySQL database.",
+      "Deployed computer vision applications with above 90% accuracy using React.js, Python, and TensorFlow, providing solutions for various practical scenarios and enhancing user experiences.",
     ],
   },
   {
@@ -193,6 +196,27 @@ const projects = [
     source_code_link: "https://github.com/akshaydhame2001/SocialMediaApp",
   },
   {
+    name: "Disney Plus with AI",
+    description:
+      "This project leverages cutting-edge technologies to deliver a robust, user-friendly web application. Using Shadcn and Tailwind CSS, it features a beautiful and intuitive UI & UX design. Azure Functions power the backend, ensuring scalable and efficient serverless services, while the Azure OpenAI service provides intelligent AI-driven movie suggestions. Loaders enhance user experience by ensuring smooth data fetching. With Next.js 14, the project benefits from efficient data caching and optimized performance. Tailwind CSS enables rapid and responsive UI development, and a dark mode toggle offers personalized user preferences. TypeScript reduces bugs and improves code maintainability through static typing.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "azure",
+        color: "green-text-gradient",
+      },
+      {
+        name: "openai",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: disney,
+    source_code_link: "https://github.com/akshaydhame2001/Disney-plus",
+  },
+  {
     name: "E-Commerce App",
     description:
       "This project is a fully responsive, modern, full-stack e-commerce application with payment functionality. It has a modern design with animations, a Content Management System (CMS) for product management, advanced cart functionalities, and complete integration with Stripe for real payments. The application uses advanced React practices, state management with React Context API, and Next.js for server-side rendering and static generation. Stripe is integrated for managing payments, products, shipping rates, and the checkout process. Sanity, a unified content platform, is used for managing the entire content of the app, allowing changes to the store’s homepage and product details instantly.",
@@ -212,6 +236,27 @@ const projects = [
     ],
     image: ecommerce,
     source_code_link: "https://github.com/akshaydhame2001/ecommerce_sanity",
+  },
+  {
+    name: "Drone Simulator",
+    description:
+      "This project is a comprehensive drone/UAV simulator built for Software-in-the-Loop (SITL) simulation of an object-following application. The frontend is developed using React, TypeScript, and SCSS, providing a modern, responsive, and visually appealing user interface. The backend, running on Ubuntu WSL, utilizes Python along with the DroneKit library and MAVLink protocol to interact with ArduPilot. The frontend and backend communicate seamlessly via WebSocket, enabling real-time data exchange and control.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "python",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "websockets",
+        color: "green-text-gradient",
+      },
+    ],
+    image: dronesim,
+    source_code_link: "https://github.com/akshaydhame2001/WebDroneSimulator",
   },
   {
     name: "Object Detection and Tracking",

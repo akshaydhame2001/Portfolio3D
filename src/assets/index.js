@@ -15,7 +15,9 @@ import unilactic from "./unilactic.png";
 import internshala from "./internshala.png";
 import testimonial from "./testimonial.jpg";
 import socialMedia from "./socialMedia.png";
+import disney from "./disney.png";
 import ecommerce from "./ecommerce.png";
+import dronesim from "./dronesim.png";
 import odt from "./odt.png";
 
 import css from "./tech/css.png";
@@ -71,6 +73,8 @@ export {
   internshala,
   testimonial,
   socialMedia,
+  disney,
   ecommerce,
+  dronesim,
   odt,
 };
