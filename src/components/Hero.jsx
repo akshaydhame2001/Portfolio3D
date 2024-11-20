@@ -29,7 +29,12 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="absolute inset-0 top-[150px] lg:top-[300px] w-full mx-auto flex flex-row justify-center items-center">
+      <div
+        className="absolute inset-0 top-[150px] lg:top-[300px] w-full mx-auto flex flex-row justify-center items-center"
+        style={{
+          top: window.innerWidth < 380 && "310px",
+        }}
+      >
         <HeroBanner />
       </div>
 

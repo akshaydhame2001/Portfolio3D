@@ -1,0 +1,11 @@
+.heroimage {
+  width: 300px;
+  height: 300px;
+}
+
+@media (max-width: 380px) {
+  .heroimage {
+    width: 200px;
+    height: 200px;
+  }
+}

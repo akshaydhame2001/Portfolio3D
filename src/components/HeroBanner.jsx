@@ -1,4 +1,5 @@
 import { akshay } from "../assets";
+import styles from "./HeroBanner.module.css";
 
 const HeroBanner = () => {
   return (
@@ -15,10 +16,9 @@ const HeroBanner = () => {
     >
       {/* Circular iframe */}
       <div
+        className={styles.heroimage}
         style={{
           position: "relative",
-          width: "300px",
-          height: "300px",
           borderRadius: "50%",
           overflow: "hidden",
           boxShadow: "0 2px 8px rgba(63, 69, 81, 0.16)",
