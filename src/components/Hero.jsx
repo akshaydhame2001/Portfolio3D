@@ -1,11 +1,12 @@
 import { motion } from "framer-motion";
-
+import HeroBanner from "./HeroBanner";
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+// import { ComputersCanvas } from "./canvas"; // Uncomment if needed
 
 const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto">
+      {/* Hero Section Content */}
       <div
         className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
       >
@@ -16,18 +17,24 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I &apos; m <span className="text-[#915eff]">Akshay</span>
+            Hi, I&apos;m <span className="text-[#915eff]">Akshay</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop responsive user interfaces,
-            <br className="sm:block hideen" /> web applications and ML models
+            I develop Full Stack Web applications,
+            <br className="sm:block hidden" /> and AI/Deep Learning models
           </p>
+
+          {/* HeroBanner */}
+          <div className="mt-5"></div>
         </div>
       </div>
-      <br></br>
-      <ComputersCanvas />
 
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+      <div className="absolute inset-0 top-[150px] lg:top-[300px] w-full mx-auto flex flex-row justify-center items-center">
+        <HeroBanner />
+      </div>
+
+      {/* Scroll Down Indicator */}
+      <div className="absolute xs:bottom-16 bottom-20 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div

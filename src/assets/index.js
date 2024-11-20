@@ -19,6 +19,7 @@ import disney from "./disney.png";
 import ecommerce from "./ecommerce.png";
 import dronesim from "./dronesim.png";
 import odt from "./odt.png";
+import vmmtc from "./vmmtc.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -38,6 +39,8 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+
+import akshay from "./Akshay1.png";
 
 export {
   logo,
@@ -77,4 +80,6 @@ export {
   ecommerce,
   dronesim,
   odt,
+  vmmtc,
+  akshay,
 };

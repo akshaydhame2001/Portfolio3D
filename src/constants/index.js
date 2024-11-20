@@ -24,6 +24,7 @@ import {
   ecommerce,
   dronesim,
   odt,
+  vmmtc,
 } from "../assets";
 
 export const navLinks = [
@@ -43,19 +44,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   {
-    title: "React Developer",
+    title: "MERN Developer",
     icon: mobile,
   },
   {
-    title: "Frontend Developer",
+    title: "AI Engineer",
     icon: backend,
   },
   {
-    title: "ML Developer",
+    title: "Deep Learning Engineer",
     icon: creator,
   },
 ];
@@ -275,6 +276,24 @@ const projects = [
     image: odt,
     source_code_link:
       "https://github.com/akshaydhame2001/YOLOv8_Tracking_TensorRT",
+  },
+  {
+    name: "Vehicle Make-Model-Type-Color Recognition",
+    description:
+      "This project is a computer vision system for vehicle make, model, type, and color recognition. It combines a YOLO vehicle detector, a Make-Model MobileNetV3 classifier, and a YOLOv8-based color classifier to identify details of over 3,000 vehicle models, including popular Indian brands like Tata, Mahindra, and Maruti Suzuki. The system is optimized for real-world accuracy and scalability.",
+    tags: [
+      {
+        name: "pytorch",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tensorflow",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: vmmtc,
+    source_code_link:
+      "https://www.linkedin.com/posts/akshaydhame_ai-deeplearning-generativeai-activity-7264480286233501696-wpLx",
   },
 ];
 
