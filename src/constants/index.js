@@ -30,6 +30,7 @@ import {
   dronesim,
   odt,
   vmmtc,
+  ragllm,
 } from "../assets";
 
 export const navLinks = [
@@ -210,7 +211,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: socialMedia,
+    image: ragllm,
     source_code_link: "https://github.com/akshaydhame2001/LLM-RAG-Chatbot",
   },
   {

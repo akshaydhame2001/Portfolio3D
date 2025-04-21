@@ -20,6 +20,7 @@ import ecommerce from "./ecommerce.png";
 import dronesim from "./dronesim.png";
 import odt from "./odt.png";
 import vmmtc from "./vmmtc.png";
+import ragllm from "./ragllm.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -79,7 +80,6 @@ export {
   fastapi,
   langchain,
   huggingface,
-  docker,
   aws,
   unilactic,
   internshala,
@@ -90,5 +90,6 @@ export {
   dronesim,
   odt,
   vmmtc,
+  ragllm,
   akshay,
 };
