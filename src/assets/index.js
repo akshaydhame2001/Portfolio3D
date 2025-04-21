@@ -34,6 +34,10 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import fastapi from "./fastapi.png";
+import langchain from "./lg.jpg";
+import huggingface from "./hf.png";
+import aws from "./aws.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -72,6 +76,11 @@ export {
   pytorch,
   tensorflow,
   opencv,
+  fastapi,
+  langchain,
+  huggingface,
+  docker,
+  aws,
   unilactic,
   internshala,
   testimonial,

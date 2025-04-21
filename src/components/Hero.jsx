@@ -20,8 +20,8 @@ const Hero = () => {
             Hi, I&apos;m <span className="text-[#915eff]">Akshay</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop Full Stack Web applications,
-            <br className="sm:block hidden" /> and AI/Deep Learning models
+            I develop Full Stack applications,
+            <br className="sm:block hidden" /> and GenAI/ML models
           </p>
 
           {/* HeroBanner */}
